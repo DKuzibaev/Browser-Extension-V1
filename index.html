@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ты Никита?</title>
+  </head>
+  <body>
+    <header>
+      <div class="modal-header">
+        <img class="logo-icon" src="images/icon-128.png" />
+        <h1 class="logo"><span class="lg-txt">Ты Никита?</span></h1>
+      </div>
+    </header>
+    <main class="test-block">
+      <div class="container">
+        <div class="row">
+          <form>
+            <div class="col-md-6">
+              <p>1. Вы любите деньги?</p>
+              <label
+                ><input type="radio" name="question-1" value="Да" />Да</label
+              >
+              <label
+                ><input type="radio" name="question-1" value="Нет" />Нет</label
+              >
+            </div>
+            <br />
+            <div class="col-md-6">
+              <p>2. У вас есть газ?</p>
+              <label
+                ><input type="radio" name="question-2" value="Да" />Да</label
+              >
+              <label
+                ><input type="radio" name="question-2" value="Нет" />Нет</label
+              >
+            </div>
+            <br />
+            <div class="col-md-6">
+              <p>3. Храните деньги в банке?</p>
+              <label
+                ><input type="radio" name="question-3" value="Да" />Да</label
+              >
+              <label
+                ><input type="radio" name="question-3" value="Нет" />Нет</label
+              >
+            </div>
+            <br />
+            <div class="col-md-6">
+              <p>4. Любите матцу?</p>
+              <label
+                ><input type="radio" name="question-4" value="Да" />Да</label
+              >
+              <label
+                ><input type="radio" name="question-4" value="Нет" />Нет</label
+              >
+            </div>
+            <br />
+            <div class="col-md-6">
+              <p>5. Как относитесь к лагерям?</p>
+              <label
+                ><input
+                  type="radio"
+                  name="question-5"
+                  value="Плохо"
+                />Плохо</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="question-5"
+                  value="Хорошо"
+                />Хорошо</label
+              >
+            </div>
+            <br />
+            <div class="button-pos">
+              <button type="button" id="submit-button" class="btn btn-dark">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

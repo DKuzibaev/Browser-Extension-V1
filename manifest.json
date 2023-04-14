@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Are you Nikita?",
+    "description": "This extension checks whether you are Nikita or not...",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ],
+
+    "icons":{
+        "128":"images/icon-128.png"
+    },
+
+    "action": {
+        "default_icon": {
+            "128": "images/icon-128.png"
+        },
+        "default_popup": "index.html"
+    }        
+}

@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #252525;
+    font-family: "Open Sans", sans-serif;
+    width: 300px;
+    height: 300px;
+}
+  
+.container {
+    margin-top: 50px;
+}
+
+.button-pos {
+    margin-left: 87px;
+    margin-bottom: 30px;
+}
+
+.modal-header {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+  
+.logo-icon {
+    width: 128px;
+    height: 128px;
+
+    margin-right: 10px;
+}
+
+h1 {
+    margin-top: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 .lg-txt {
+    margin-top: 50px;
+}
+  
+form {
+    position: relative;    
+}
+  
+p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+  
+label {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
